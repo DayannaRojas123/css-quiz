@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <meta name="author" content="Talento coex DR">
+      <meta name="description" content="diseño web con coex">
+      <meta name="keywords" content="aprende logica, html, css, javascript, bd, vue.js, laravel"/>
+      <title>DAYANNA ROJAS</title>
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body id="body">
+      <header id="header">
+         <h4 id="titulo">QUESTIONNAIRE</h4>
+      </header>
+      <nav>
+      </nav>
+      <main>
+         <section id="seccionquiz">
+            <div id="pre">
+               <span id="preguntas"></span>
+            </div>
+            <form action="" id="formulario">
+               <div id="form1">
+                  <div   onclick="seleccion(0)" class="botones" id="opt1"></div>
+                  <div  onclick="seleccion(1)" class="botones"  id="opt2"></div>
+                  <div   onclick="seleccion(2)"class="botones"  id="opt3"></div>
+                  <div   onclick="seleccion(3)" class="botones"  id="opt4" ></div>
+               </div>
+               <div id="bot"  onclick="continuar()">Continuar</div>
+            </form>
+         </section>
+         <section id="seccionpuntaje">
+            <p id="punt">su puntuacion es:<span id="span"></span></p>
+            <div id="good" style="display:none">
+               <img class='imagenes'id="bien" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/55406bfa-628b-4f45-8423-f01b3600ddab/dc0b70x-7c5f56f4-50db-4ada-ba04-821c7fb1ad4d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU1NDA2YmZhLTYyOGItNGY0NS04NDIzLWYwMWIzNjAwZGRhYlwvZGMwYjcweC03YzVmNTZmNC01MGRiLTRhZGEtYmEwNC04MjFjN2ZiMWFkNGQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IKuu1RdWdoJ7njzPx3_FTZ0sFdqdcAULupE6UYkAq-w" alt="bien">
+            </div>
+            <div id="bad" style="display:none"><img class='imagenes'id='mal' src="https://mario.wiki.gallery/images/a/ae/Mario_%28Defeated%29_-_Super_Mario_Sticker.gif" alt="mal">
+            </div>
+         </section>
+         <img id="dude" SRC="https://images.emojiterra.com/google/android-11/512px/1f914.png">
+      </main>
+      <footer>
+         <p  id="pieFinal">
+            Desarollado por: &copy Dayanna Valentina Rojas Rey
+         </p>
+      </footer>
+      <script src="./main.js"></script>
+   </body>
+</html>

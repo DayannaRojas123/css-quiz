@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+* {
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Jost',sans-serif;
+	text-align:center;
+}
+#body {
+	background:linear-gradient(45deg,#14EB24,#14EB48,#14EB6F,#14EB86,#14EBAA );
+	background-size:400% 400%;
+	animation:bonito 1s ease infinite;
+}
+#form1 {
+	margin:5px;
+	display:flex;
+}
+#botonc {
+	margin:auto;
+}
+.botones {
+	color:rgb(255,255,255);
+	margin:20px;
+	padding:5px;
+}
+.botones:hover {
+	transform:scale(0.8);
+}
+.botonesclick {
+	background-color:#14EBAA;
+}
+#bien {
+	height:296px;
+	;
+	width:466px;
+}
+#form1 {
+	justify-content:center;
+}
+#titulo {
+	font-size:80px;
+	border-radius:10px;
+	text-shadow:7px 7px 7px #14B9CA;
+	margin:20px;
+	background-color:aqua;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#pre {
+	margin:20px;
+	justify-content:center;
+	display:flex;
+	margin-top:20px;
+}
+#seccionquiz {
+	margin:30px;
+	border-radius:10px;
+	background-color:cornflowerblue;
+	border-style:dashed;
+	border-color:#14EB24;
+}
+#seccionpuntaje {
+	margin:100px;
+	border-radius:10px;
+	background-color:cornflowerblue;
+}
+#pieFinal {
+	opacity:0.5;
+	width:100%;
+	position:fixed;
+	left:0px;
+	bottom:0px;
+}
+#preguntas {
+	margin-top:20px;
+	background-color:aqua;
+	border-radius:10px;
+}
+#bot {
+	margin-top:20px;
+	background-color:aqua;
+	border-radius:10px;
+}
+#bot:active {
+	background-color:#14EB24;
+}
+#punt {
+	color:rgb(255,255,255);
+}
+#opt1.botones {
+	border:2px solid;
+	border-radius:10px;
+	box-shadow:5px 5px 20px;
+}
+#opt2.botones {
+	border:2px solid;
+	border-radius:10px;
+	box-shadow:5px 5px 20px;
+}
+#opt3.botones {
+	border:2px solid;
+	border-radius:10px;
+	box-shadow:5px 5px 20px;
+}
+#opt4.botones {
+	border:2px solid;
+	border-radius:10px;
+	box-shadow:5px 5px 20px;
+}
+#dude {
+	height:296px;
+	;
+	width:320px;
+}
+@keyframes bonito {
+	0% {
+		background-position: 0 50%;
+	}
+	/* de cero a la mitad*/
+	50% {
+		background-position:100% 50%;
+	}
+	/* cuando llegue al final,50 para que regrese*/ 100% {
+		background-position: 0 50%;
+	}
+	/*empieza de nuevo de cero*/
+}
